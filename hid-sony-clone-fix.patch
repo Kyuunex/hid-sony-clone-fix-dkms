@@ -1,6 +1,6 @@
---- ../original/hid-sony.c	2020-09-12 20:32:49.164498532 +0400
-+++ hid-sony.c	2020-09-12 20:04:26.842113231 +0400
-@@ -2466,9 +2466,14 @@
+--- a/drivers/hid/hid-sony.c	2020-09-12 20:32:49.164498532 +0400
++++ b/drivers/hid/hid-sony.c	2020-09-12 21:00:26.224031565 +0400
+@@ -2466,9 +2466,7 @@
  		 * retrieved with feature report 0x81. The address begins at
  		 * offset 1.
  		 */

@@ -24,7 +24,7 @@ prepare(){
     local workdir="${srcdir}/workdir"
     mkdir -p "${workdir}"
     cp "${srcdir}/hid-sony.c" "${workdir}"
-    patch -d "${workdir}" -Np3 -i "${srcdir}/hid-sony-clone-fix.patch"
+    patch -d "${workdir}" -Np3 -i "${srcdir}/../hid-sony-clone-fix.patch"
 }
 
 package() {
