@@ -2,7 +2,7 @@
 
 _pkgbase='hid-sony-clone-fix'
 pkgname=${_pkgbase}-dkms
-pkgver=5.6.13
+pkgver=5.13.9
 pkgrel=1
 pkgdesc="A patched Sony HID driver DKMS package to account for third party clone DS4 controllers that don't report MAC address correctly."
 _srctag=v${pkgver}
@@ -14,8 +14,8 @@ source=("hid-sony.c::https://git.kernel.org/pub/scm/linux/kernel/git/stable/linu
         "Makefile"
         "hid-sony-clone-fix-dkms.dkms"
         "hid-sony-blacklist.modprobe")
-sha256sums=('509b6d7d4fc33fdaa4efd971de93965e6864f50dc6fb8aa89ae67a36f75fc845'
-            '162932261317e712cc344f5947af96c0bdff33adacade895e2e694df87330121'
+sha256sums=('776dc5175d68f7fff16abf6aaa4fcbc824242260103ed9b056b4a157e2353400'
+            'c3d29893d24a6bbcd98131d4743c3ac0cac2a477c4c89cf8e5a520c7b4e8864f'
             '71e745ee26e7d57b4e8aec03616faea548443d13ace854d53d3ba981956f241a'
             '04a25acef8059630188ebbf398115c87bf27f97a8e37ce9a10d1d30387800610'
             'f4ab0b6941e353e861007a0bb6c468b4a7d027c56d530056fa686ad837616635')
