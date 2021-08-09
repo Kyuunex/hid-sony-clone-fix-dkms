@@ -1,5 +1,5 @@
 # hid-sony-clone-fix-dkms
-A quick hack to patch Sony HID driver to account for third party clone DS4 controllers 
+A quick hack the hid-sony driver meant for the third party / clone DS4 controllers 
 that do not support HID feature report 0x81.
 
 If you are having an issue where the USB controller disconnects this and other devices every few seconds, 
