@@ -2,7 +2,7 @@
 
 _pkgbase='hid-sony-clone-fix'
 pkgname=${_pkgbase}-dkms
-pkgver=6.0.1
+pkgver=6.1.12
 pkgrel=1
 pkgdesc="A quick hack to the hid-sony driver meant for the third party / clone DS4 controllers that do not support HID feature report 0x81."
 _srctag=v${pkgver}
@@ -14,8 +14,8 @@ source=("hid-sony.c::https://git.kernel.org/pub/scm/linux/kernel/git/stable/linu
         "Makefile"
         "hid-sony-clone-fix-dkms.dkms"
         "hid-sony-blacklist.modprobe")
-sha256sums=('d06b36d69f723777a4cba2fcae34523002e39a9549e2e67136e520627f1a173f'
-            '16cfa6f409c8dde6e230bc13ab14e996ef54afcfbe88238b587272a32b2e8937'
+sha256sums=('297b84f9fb1093511590bbaf57f89119cdbf998ca3650099b045b5fb0204b88d'
+            '67d4d45bf65875569e8904cd750a5a2cd1a05fb1e9493558b09c2d4904a03117'
             '71e745ee26e7d57b4e8aec03616faea548443d13ace854d53d3ba981956f241a'
             '04a25acef8059630188ebbf398115c87bf27f97a8e37ce9a10d1d30387800610'
             'f4ab0b6941e353e861007a0bb6c468b4a7d027c56d530056fa686ad837616635')
