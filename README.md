@@ -1,6 +1,12 @@
 # hid-sony-clone-fix-dkms
-A quick hack to the hid-sony driver meant for the third party / clone DS4 controllers 
+A quick hack to the hid-sony driver for kernels `5.13` - `6.1`, 
+meant for the third party / clone DS4 controllers 
 that do not support HID feature report 0x81.
+
+## Not needed since kernel 6.2
+Since kernel `6.2`, a new `hid-playstation` driver is included in the kernel 
+which seems to work with controlers that do not support HID feature report 0x81, 
+and thus, this patch is no longer needed.  
 
 If you see the following in your kernel logs, this patch is meant to work around that.
 ```
