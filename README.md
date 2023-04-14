@@ -36,5 +36,5 @@ If you want to install a version of this hack based on hid-sony from a different
 change the branch. This repo has multiple branches.
 
 # Installation/Building (Ubuntu)
-I don't support this currently, I'm busy, but have a look at 
-[this issue](https://github.com/Kyuunex/hid-sony-clone-fix-dkms/issues/1) for more info
+I don't support this currently, I'm busy and I don't use Ubuntu, so I don't know how to package this for Ubuntu,
+but have a look at [this issue](https://github.com/Kyuunex/hid-sony-clone-fix-dkms/issues/1) for more info
