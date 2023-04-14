@@ -8,6 +8,7 @@ Since kernel `6.2`, a new `hid-playstation` driver is included in the kernel
 which seems to work with controlers that do not support HID feature report 0x81, 
 and thus, this patch is no longer needed.  
 
+# How to know if you need this patch
 If you see the following in your kernel logs, this patch is meant to work around that.
 ```
 failed to retrieve feature report 0x81 with the DualShock 4 MAC address
